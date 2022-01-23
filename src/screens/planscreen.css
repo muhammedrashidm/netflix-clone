@@ -1,0 +1,34 @@
+.planscreen{
+
+}
+.planScreen_plan{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.planScreen_plan:hover{
+opacity: 1;
+}
+
+.planScreen_plan > button{
+    padding: 10px,20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    margin-top: 5px;
+}
+.planScreen_plan_disabled{
+    display: flex;
+    justify-content: space-between;
+}
+
+.planScreen_plan_disabled> button{
+       padding: 10px,20px;
+    font-size: 1rem;
+    color: white;
+    background-color: gray;
+    border: none;
+    margin-top: 5px;
+} 
